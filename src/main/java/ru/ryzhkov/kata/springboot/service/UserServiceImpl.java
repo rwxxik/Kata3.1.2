@@ -1,11 +1,11 @@
 package ru.ryzhkov.kata.springboot.service;
 
+import org.springframework.stereotype.Service;
 import ru.ryzhkov.kata.springboot.dao.UserDao;
-import ru.ryzhkov.kata.springboot.models.User;
-import org.springframework.stereotype.Component;
+import ru.ryzhkov.kata.springboot.model.User;
 
 import java.util.List;
-@Component
+@Service
 public class UserServiceImpl implements UserService{
 
     private final UserDao userDao;

@@ -1,7 +1,7 @@
 package ru.ryzhkov.kata.springboot.dao;
 
 
-import ru.ryzhkov.kata.springboot.models.User;
+import ru.ryzhkov.kata.springboot.model.User;
 
 import java.util.List;
 

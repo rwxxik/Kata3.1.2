@@ -1,4 +1,4 @@
-package ru.ryzhkov.kata.springboot.models;
+package ru.ryzhkov.kata.springboot.model;
 
 import jakarta.persistence.*;
 

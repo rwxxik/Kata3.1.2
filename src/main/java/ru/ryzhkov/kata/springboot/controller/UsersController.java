@@ -1,10 +1,10 @@
-package ru.ryzhkov.kata.springboot.controllers;
+package ru.ryzhkov.kata.springboot.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
-import ru.ryzhkov.kata.springboot.models.User;
+import ru.ryzhkov.kata.springboot.model.User;
 import ru.ryzhkov.kata.springboot.service.UserService;
 
 @Controller
